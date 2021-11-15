@@ -1,0 +1,5 @@
+{
+    "/Funky/User/GetBalance": "/GetBalance",
+    "/Funky/Bet/CheckBet": "/CheckBet",
+    "/Funky/Bet/PlaceBet": "/PlaceBet"
+}

@@ -1,0 +1,7 @@
+{
+    "port": 4000,
+    "routes": "routes.json",
+    "middlewares": [
+        "middleware-1.js"
+    ]
+}
