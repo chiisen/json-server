@@ -1,0 +1,23 @@
+{
+    "GetBalance": {
+      "errorCode": 0,
+      "errorMessage": "No Error",
+      "data": {
+        "balance": 1000
+      }
+    },
+    "CheckBet": {
+      "errorCode": 0,
+      "errorMessage": "No Error",
+      "data": {
+        "balance": "CheckBet"
+      }
+    },
+    "PlaceBet": {
+      "errorCode": 0,
+      "errorMessage": "No Error",
+      "data": {
+        "balance": "PlaceBet"
+      }
+    }
+  }
