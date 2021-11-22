@@ -9,6 +9,7 @@
 ```shell
 npm install -g json-server
 ```
+![json-server 安裝](https://i.imgur.com/HEqW7lE.png)
 
 # API 網址設定
 建立一個 funky.json 檔案，內容如下:
