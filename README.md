@@ -84,3 +84,4 @@ module.exports = function (req, res, next) {
 ```shell
 json-server funky.json
 ```
+![run server](https://i.imgur.com/R7nHneM.png)
