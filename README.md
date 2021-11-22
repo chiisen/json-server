@@ -1,5 +1,8 @@
 # json-server
-mock server
+3分鐘設定完 mock server
+使用情境:
+當與你合作的 server 功能還未完成
+你可以透過 json-server 輕鬆的模擬 server 的功能
 
 # 安裝
 ```shell
@@ -7,7 +10,7 @@ npm install -g json-server
 ```
 
 # API 網址設定
-funky.json
+建立一個 funky.json 檔案，內容如下:
 ```json
 {
   "GetBalance": {
@@ -33,9 +36,10 @@ funky.json
   }
 }
 ```
+GetBalance 為 API 名稱(/GetBalance)，{} 大括號內為要回傳的 json 內容
 
 # API 轉址
-routes.json
+建立 routes.json 檔案，內容如下:
 ```json
 {
     "/Funky/User/GetBalance": "/GetBalance",
@@ -43,8 +47,10 @@ routes.json
     "/Funky/Bet/PlaceBet": "/PlaceBet"
 }
 ```
+/Funky/User/GetBalance 會自動轉址到 /GetBalance
 
 # 關閉 POST 修改 .json 問題
+由於非 GET 方式會修改 funky.json 檔案內容，所以新增下面的 middleware，將所有的要求都改成 GET  方式
 ```javascript
 // middleware-1.js
 module.exports = function (req, res, next) {
@@ -60,7 +66,7 @@ module.exports = function (req, res, next) {
 ```
 
 # 設定伺服器
-json-server.json
+有些設定可以寫在 json-server.json 檔案內，如下:
 ```json
 {
     "port": 4000,
@@ -72,6 +78,7 @@ json-server.json
 ```
 
 # 啟動伺服器
+由於 json-server.json 是預設檔名，所以只需要輸入 funky.json 的 API 設定，就能啟動服務
 ```shell
 json-server funky.json
 ```
