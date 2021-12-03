@@ -1,7 +1,4 @@
 {
-    "/Funky/User/GetBalance": "/GetBalance",
-    "/Funky/Bet/CheckBet": "/CheckBet",
-    "/Funky/Bet/PlaceBet": "/PlaceBet",
-    "/Funky/Bet/SettleBet": "/SettleBet",
-    "/Funky/Bet/CancelBet": "/CancelBet"
+    "/DOMAIN/Balance": "/Balance",
+    "/DOMAIN/Bet": "/Bet"
 }
