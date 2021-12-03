@@ -22,18 +22,11 @@ npm install -g json-server
       "balance": 1000
     }
   },
-  "CheckBet": {
-    "errorCode": 0,
-    "errorMessage": "No Error",
-    "data": {
-      "balance": "CheckBet"
-    }
-  },
   "PlaceBet": {
     "errorCode": 0,
     "errorMessage": "No Error",
     "data": {
-      "balance": "PlaceBet"
+      "balance": 1000
     }
   }
 }
@@ -45,7 +38,6 @@ GetBalance 為 API 名稱(/GetBalance)，{} 大括號內為要回傳的 json 內
 ```json
 {
     "/User/GetBalance": "/GetBalance",
-    "/Bet/CheckBet": "/CheckBet",
     "/Bet/PlaceBet": "/PlaceBet"
 }
 ```
