@@ -1,6 +1,5 @@
 {
     "GetBalance": {
-      "comment": "5.1獲取玩家餘額",
       "errorCode": 0,
       "errorMessage": "No Error",
       "data": {
@@ -8,35 +7,31 @@
       }
     },
     "CheckBet": {
-      "comment": "5.2檢查賭注",
       "errorCode": 0,
       "errorMessage": "No Error",
       "data": {
-        "balance": "CheckBet"
+        "status": "R"
       }
     },
     "PlaceBet": {
-      "comment": "5.3下注",
       "errorCode": 0,
       "errorMessage": "No Error",
       "data": {
-        "balance": "PlaceBet"
+        "balance": 1000
       }
     },
     "SettleBet": {
-      "comment": "5.4賭注結算",
       "errorCode": 0,
       "errorMessage": "No Error",
       "data": {
-        "balance": "SettleBet"
+        "balance": 1000
       }
     },
     "CancelBet": {
-      "comment": "5.5賭注取消",
       "errorCode": 0,
       "errorMessage": "No Error",
       "data": {
-        "balance": "CancelBet"
+        "refNo": "1234567890"
       }
     }
   }
