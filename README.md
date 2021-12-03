@@ -76,4 +76,5 @@ module.exports = function (req, res, next) {
 ```shell
 json-server resp.json
 ```
-![run server](https://i.imgur.com/R7nHneM.png)
+![run server](https://i.imgur.com/PSKDGV3.png)
+
