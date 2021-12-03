@@ -1,37 +1,37 @@
 {
-    "GetBalance": {
-      "errorCode": 0,
-      "errorMessage": "No Error",
-      "data": {
-        "balance": 1000
-      }
-    },
-    "CheckBet": {
-      "errorCode": 0,
-      "errorMessage": "No Error",
-      "data": {
-        "status": "R"
-      }
-    },
-    "PlaceBet": {
-      "errorCode": 0,
-      "errorMessage": "No Error",
-      "data": {
-        "balance": 1000
-      }
-    },
-    "SettleBet": {
-      "errorCode": 0,
-      "errorMessage": "No Error",
-      "data": {
-        "balance": 1000
-      }
-    },
-    "CancelBet": {
-      "errorCode": 0,
-      "errorMessage": "No Error",
-      "data": {
-        "refNo": "1234567890"
-      }
+  "GetBalance": {
+    "errorCode": 0,
+    "errorMessage": "No Error",
+    "data": {
+      "balance": 1000
+    }
+  },
+  "CheckBet": {
+    "errorCode": 0,
+    "errorMessage": "No Error",
+    "data": {
+      "status": "R"
+    }
+  },
+  "PlaceBet": {
+    "errorCode": 0,
+    "errorMessage": "No Error",
+    "data": {
+      "balance": 1000
+    }
+  },
+  "SettleBet": {
+    "errorCode": 0,
+    "errorMessage": "No Error",
+    "data": {
+      "balance": 1000
+    }
+  },
+  "CancelBet": {
+    "errorCode": 0,
+    "errorMessage": "No Error",
+    "data": {
+      "refNo": "1234567890"
     }
   }
+}

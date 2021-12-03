@@ -15,18 +15,18 @@ npm install -g json-server
 建立一個 resp.json 檔案，內容如下:
 ```json
 {
-  "GetBalance": {
+  "Balance": {
     "errorCode": 0,
     "errorMessage": "No Error",
     "data": {
       "balance": 1000
     }
   },
-  "PlaceBet": {
+  "Bet": {
     "errorCode": 0,
     "errorMessage": "No Error",
     "data": {
-      "balance": 1000
+      "bet": 1000
     }
   }
 }
@@ -37,8 +37,8 @@ GetBalance 為 API 名稱(/GetBalance)，{} 大括號內為要回傳的 json 內
 建立 routes.json 檔案，內容如下:
 ```json
 {
-    "/User/GetBalance": "/GetBalance",
-    "/Bet/PlaceBet": "/PlaceBet"
+    "/DOMAIN/Balance": "/Balance",
+    "/DOMAIN/Bet": "/Bet"
 }
 ```
 /User/GetBalance 會自動轉址到 /GetBalance
@@ -77,4 +77,3 @@ module.exports = function (req, res, next) {
 json-server resp.json
 ```
 ![run server](https://i.imgur.com/PSKDGV3.png)
-
