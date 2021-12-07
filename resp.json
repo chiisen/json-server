@@ -21,15 +21,12 @@
     }
   },
   "SettleBet": {
-    "errorCode": 0,
-    "errorMessage": "No Error",
-    "data": {
-      "balance": 1000
-    }
+    "errorCode": 404,
+    "errorMessage": "Bet was not found"
   },
   "CancelBet": {
-    "errorCode": 0,
-    "errorMessage": "No Error",
+    "errorCode": 404,
+    "errorMessage": "Bet was not found",
     "data": {
       "refNo": "1234567890"
     }
