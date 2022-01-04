@@ -25,8 +25,8 @@
     "errorMessage": "Bet was not found"
   },
   "CancelBet": {
-    "errorCode": 404,
-    "errorMessage": "Bet was not found",
+    "errorCode": 0,
+    "errorMessage": "No Error",
     "data": {
       "refNo": "1234567890"
     }
