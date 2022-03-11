@@ -1,0 +1,43 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
+  "rules": {
+    "no-var": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": false,
+        "semi": false,
+        "printWidth": 120,
+        "trailingComma": "es5",
+        "tabWidth": 2
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["**/__mocks__/**/*.js", "**/test/**/*.js"],
+      "env": {
+        "mocha": true,
+        "jest": true
+      },
+      "globals": {
+        "expect": true,
+        "sinon": true
+      }
+    },
+    {
+      "files": ["app/expressRouter/pageJumper/scripts/*.js"],
+      "env": {
+        "browser": true
+      }
+    }
+  ]
+}

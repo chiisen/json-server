@@ -21,8 +21,12 @@
     }
   },
   "SettleBet": {
-    "errorCode": 404,
-    "errorMessage": "Bet was not found"
+    "errorCode": 0,
+    "errorMessage": "No Error",
+    "data": {
+      "balance": 1000,
+      "statementDate": "2022-03-10"
+    }
   },
   "CancelBet": {
     "errorCode": 0,
