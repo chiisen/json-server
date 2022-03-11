@@ -10,7 +10,10 @@
     "errorCode": 0,
     "errorMessage": "No Error",
     "data": {
-      "status": "C"
+      "winAmount": 0.1,
+      "stake": 0,
+      "status": "C",
+      "statementDate": "2022-03-03"
     }
   },
   "PlaceBet": {
@@ -21,7 +24,7 @@
     }
   },
   "SettleBet": {
-    "errorCode": 0,
+    "errorCode": 400,
     "errorMessage": "No Error",
     "data": {
       "balance": 1000,
