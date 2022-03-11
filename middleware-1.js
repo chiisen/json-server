@@ -11,6 +11,7 @@ module.exports = function (req, res, next) {
     // This way it will make JSON Server that it's GET request
     // @note POST 會修改原始的 json 設定檔案內容，改成 GET 就可以避免這樣的情況了。
     req.method = "GET"
+    console.log(`🚩 req.method: POST 改成 GET`)
     req.query = req.body
   }
   // Continue to JSON Server router
