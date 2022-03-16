@@ -20,22 +20,24 @@
     "errorCode": 0,
     "errorMessage": "No Error",
     "data": {
-      "balance": 1000
+      "balance": 1000,
+      "playerId": "funkyTest002"
     }
   },
   "SettleBet": {
-    "errorCode": 400,
-    "errorMessage": "No Error",
-    "data": {
-      "balance": 1000,
-      "statementDate": "2022-03-10"
-    }
-  },
-  "CancelBet": {
     "errorCode": 0,
     "errorMessage": "No Error",
     "data": {
-      "refNo": "1234567890"
+      "balance": 1000,
+      "statementDate": "2022-03-10",
+      "playerId": "funkyTest002"
+    }
+  },
+  "CancelBet": {
+    "errorCode": 400,
+    "errorMessage": "Error",
+    "data": {
+      "refNo": "TEST2-00012345677-250"
     }
   }
 }
