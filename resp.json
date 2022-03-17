@@ -25,8 +25,8 @@
     }
   },
   "SettleBet": {
-    "errorCode": 0,
-    "errorMessage": "No Error",
+    "errorCode": 400,
+    "errorMessage": "Error",
     "data": {
       "balance": 1000,
       "statementDate": "2022-03-10",
