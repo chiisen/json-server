@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "開啟 json-server",
+            "type": "shell",
+            "command": "json-server resp.json",
+            "isBackground": true,
+        }
+    ]
+}
